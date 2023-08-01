@@ -125,3 +125,10 @@ a {
   opacity: 0.75;
   transform: scale(95%);
 }
+
+@media screen and (max-width: 505px) {
+  .component {
+    width: 355px;
+    height: 600px;
+  }
+}
